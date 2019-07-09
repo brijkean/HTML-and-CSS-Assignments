@@ -1,0 +1,15 @@
+table {
+  border: 1px solid WhiteSmoke;
+}
+td:hover {
+  background-color: AliceBlue ;
+  color: black;
+}
+tr, th {
+  background-color: Gray;
+  color: white;
+}
+tr, td {
+  background-color: white ;
+  color: black;
+}

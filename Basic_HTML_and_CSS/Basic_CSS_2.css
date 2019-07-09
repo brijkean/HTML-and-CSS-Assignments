@@ -1,0 +1,19 @@
+ div {	
+	margin-left: 300px;
+	margin-right: 20px;
+	text-align: right;
+  }
+ p {     
+	background-color: black;
+    color:white ;
+    font-size:12pt ;
+	text-align: right;
+	margin-left: inherit;
+ }	
+ .left {
+	background-color: white;
+	color: black;
+	text-shadow: 3px 2px LightGray;
+	text-align: left;
+	margin-left: 25 px;
+}
