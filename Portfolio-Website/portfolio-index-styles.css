@@ -1,0 +1,68 @@
+/*body {
+
+  font-size: calc(14px + (22 - 14) * ((100vw - 300px) / (1600 - 300)));
+  
+  line-height: calc(1.3rem + (1.5 - 1.2) * ((100vw - 300px)/(1600 - 300)));
+
+}/*math breakdown >for scalable type>>  
+body {
+  font-size: calc([minimum size] + ([maximum size] - [minimum size]) * ((100vw - [minimum viewport width]) / ([maximum viewport width] - [minimum viewport width])));
+}*/
+
+/*scaling line-heights section*/
+h1, h2, h3 {
+	line-height: 1.2em;
+    }
+.molten-leading {
+  line-height: 1.2em;
+}
+    
+@media screen and (min-width: 20em/*320px*/) {
+  .molten-leading {
+    line-height: calc(1.2em + 0.4 * ((100vw - 20em) / 60));
+  }
+  h1, h2, h3 {
+	line-height:calc(1.2em + 0.4 * ((100vw - 20em) / 60));
+  }
+}
+
+@media screen and (min-width: 80em/*1280px*/) {
+  .molten-leading {
+    line-height: 1.2em;
+  }
+  h1, h2, h3 {
+    line-height: 1.6em;
+  }
+}
+
+/*scaling type section*/    
+.fluid-type {
+  font-size: 14px;
+}
+
+@media screen and (min-width: 320px) {
+  .fluid-type {
+    font-size: calc(14px + /*8(22px)*/5 * ((100vw - 320px) / 960));
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .fluid-type {
+    font-size: 22px;
+  }
+} 
+
+/*@media screen only (max-width: 1040px) {
+
+}*/
+
+
+
+@media all and (max-width: 583px) {
+    .header_text {
+      margin-top: 8%;
+    }
+    .navbar a {
+        padding: 0.5rem;
+    }
+  }
