@@ -5,146 +5,11 @@
     <title>Your name here </title>
     <link rel="stylesheet" type="text/css" href="portfolio-index-styles.css">
     <style>
-body {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    margin: 0%;
-}    
-#header-image {
-    position: fixed; /* This fixes our video to the page  */
-    left: 0;  /*This ensures no space between the edge of the video and the edge of the page */
-    top: 0; /*This ensures no space between the edge of the video and the edge of the page */
-    
-    background-image: url("ezgif-5-83c82ef73705.gif");
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    min-width: 100%;
-    /*display: block;*/
-    filter: blur(3px);
-    -webkit-filter: blur(3px);
-    /*object-fit: cover;*/
-    z-index: -1;
-}
-video {
-    position: fixed; /* This fixes our video to the page  */
-    
-    right: 0; /* This ensures no space between the edge of the video and the edge of the page */
-    top: 0; /* This ensures no space between the edge of the video and the edge of the page */
-    width: 100%; /* This ensures the video is displayed across the full width of the page */
-    height: auto;
-    z-index: -1;
-}
-
-.navbar {
-    overflow: hidden; /* This ensures that any content that overflows beyond the boundary of our nav bar is not displayed */
-    background-color: rgba(0,0,0,.3);
-    position: fixed; /* This keeps the navbar at the top of the screen as we scroll */
-    top: 0; /* This ensures no space is displayed above the navbar */
-    width: 100%; /* This makes the navbar span the entire width of the page */
-    z-index: 1; /*This ensures other elements don't display over the navbar */
-}
-.navbar a {
-    float: left; /* This specifies that the text floats on the left on the navbar */
-    display: block; /* This ensures that other text will be displayed on the same line or row, instead of a new line */
-    color: white; /* This is the font color for text on our navbar */
-    padding: 14px 16px; /* This adds padding around our text */
-    text-decoration: none; /* This gets rid of the underlines under the text on our navbar */
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
-    Raleway, Avant Garde, Helvetica; /* This specifies the font family for text on our navbar */
-    font-size: 1.2rem; /* This specifies the font size for text on our navbar */
-    font-weight: 400;
-    font-variant: small-caps;
-    text-align: center; /* This centers the text within its container */
-    transition: letter-spacing .3s ease-in-out;
-}
-/* Navbar hover effect */
-.navbar a:hover {
-    /*background-color: #F4F4F4; This defines the background color that will display when you hover over the text on the navbar */
-    color: rgba(87, 255, 255, 0.8); /* This defines the font color that will display when you hover over the text on the navbar */
-    font-weight:550; /* This makes the text on the navbar bold when hovered over */
-    /*text-shadow:  2px -1px 3px rgba(255, 255, 255, 0.829);*/
-    letter-spacing: .2rem;
-        
-}
-
-/* Text over the video */ 
-.header_text { 
-	background: rgba(012, 145, 145, 0.1); /* This provides a semi-transparent background for the text to sit over */
-	color: white; 
-	/*width: 100%;*/
-    padding: 5%; /*20px;  This adds padding around the text so that the background goes slightly beyond the text */
-    
-	margin-top: 23%;
-}
-
-/* Table - this section covers the styling of the columns and rows within our table */
-* { /* The asterisk is a universal selector that applies this effect to all elements on the page */
-    box-sizing: border-box; /* This creates a box with a border within which we will place most of our text */
-    
-}
-.row p, h1  {
-    color: white; 
-    text-align: justify;
-    height: fit-content;
-}
-.row a {
-    text-decoration: none;
-    color: rgba(87, 255, 255, 0.8);
-}
-
-.column-i {
-    float: left;
-    width: 25%;
-    padding: 10px;
-    padding-top: 3%;
-    height: 300px;
-    background-color: rgb(85, 85, 85);
-}
-.column1 {
-    float: left;
-    width: 50%;
-    padding: 4%; /*10px;*/
-    padding-top: 3%;
-    height: 300px;
-    background-color: #4d4d4d;
-}
-.column2 {
-    float: left;
-    width: 50%;
-    padding: 10px;
-    padding-top: 1.9%;
-    height: 400px;
-    background-color: #4d4d4d;
-}
-.column3 {
-    float: left;
-    width: 75%;
-    padding: 4%; /*10px;*/
-    padding-top: 3%;
-    height: 300px;
-    background-color: rgb(85, 85, 85);
-}
-.column4 {
-    float: left;
-    width: 100%;
-    padding: 10px;
-    padding-top: 3%;
-    height: 400px;
-    background-color: rgb(85, 85, 85);
-}
-.row:after {
-        content: "";
-        clear: both;
-        display: table;
-}
 
     </style>
 </head>
 
-<body>
+<body>    
 <!--NAVBAR-->
     <div class="navbar">
         <a class="active" href="#HOME">Home</a>
@@ -162,24 +27,24 @@ video {
         </video>
     </div>
 <!--/home-->
-
+<div class="molten-leading"> 
 <!--intro/welcome section-->
     <div class="fluid-type">
         <div class="header_text">
-            <h1><center>Lorem ipsum dolor</center></h1>
-            <p><span style="text-align: justify">
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Enim, doloribus soluta rerum, eveniet sit provident blanditiis odio quod non natus eaque voluptatibus quia accusamus cumque architecto nobis corrupti facilis.  O uervis en diemed leucentod! O ollas leucentas machinas. Possibilitas essed quod mundom alterum envueniamos cresdes?
-            </span>
+            <h1><center>&mdash; Hi, I'm Brianna.</center></h1>
+            <p>
+                I'm a junior developer and web-designer based in the Pacific Northwest. Thanks for stopping by my site! Take a look around below.
             </p>
         </div>
     </div>
 <!--#ABOUT-->
-    <div class="row" id="ABOUT">
-        <div class="column-i"></div><!--left column 25%-->
+    <div class="row" id="ABOUT" style="height: 325px;">
+        <div class="column-i">
+        </div><!--left column 25%-->
         <div class="column3"><!--right column 75%-->
             <div class="fluid-type">
             <h2>About</h2>
-                <p>I am a software developer who loves to code! As a father of two, I enjoy time with my family and traveling. <br><br>I am a graduate of <a href="https://www.learncodinganywhere.com" target="_blank">The Tech Academy</a>’s Software Developer Boot Camp, and I have experience in the following web and programming languages: HTML, CSS, JavaScript, SQL, C# and more. <br><br>I am a full-stack developer and would love to work with you on your project. <a href="#Contact">Contact</a> me below!</p>
+                <p>I am a junior software developer with a background in design.<br><br>I'm a graduate of <a href="https://www.learncodinganywhere.com" target="_blank">The Tech Academy</a>’s Software Developer Boot Camp, and I have experience working in HTML, CSS, JavaScript, SQL, and C#.<br><br>I am a full-stack developer and would love to work with you! <a href="#Contact">Get in touch</a> with me below!</p>
             </div>
         </div>
     </div>
@@ -188,9 +53,8 @@ video {
     <div class= "row" id="LINKS">
         <div class="fluid-type">
             <div class="column1"><!--left column-->
-                <h1>GitHub</h1>
-				<p>You can view my coding projects on my GitHub profile here:<br>
-				<center><a href="https://github.com/the-tech-academy" target="_blank">The Tech Academy GitHub</a></center></p>
+                <h2>GitHub</h2>
+				<p>You can view my coding projects on my GitHub profile <a href="https://github.com/the-tech-academy" target="_blank">here.</a></p>
             </div>
             <div class="column1"><!--right column-->
             </div>
@@ -199,19 +63,19 @@ video {
     </div>
 
 <!--#CONTACT-->
-<div class="row" id="CONTACT">
+    <div class="row" id="CONTACT" style="height: fit-content; background-color: rgb(85, 85, 85);"> 
         <div class="column-i"> <!-- left column -->
 			<img src="" alt="">
 		</div>
 	
-        <div class="column3"> <!-- Contact form, right column 75%-->
+        <div class="column3" style="height: fit-content; padding-bottom: 1%;"> <!-- Contact form, right column 75%-->
             <div class="fluid-type">
             <h2>Contact</h2> 
-                <form action="" method="get"> <!-- This specifies where to send the form data and how; it is left blank -->
+                <form action="" method="get"> <!--specifies where to send the form data and how -->
                     <label>Name:</label>
-                        <input type="text" placeholder="Please enter your name here">
+                        <input type="text" placeholder="Name">
                     <label>Email:</label>
-                        <input type="text" id="Email" name="Email" placeholder="Please enter your email here">
+                        <input type="text" id="Email" name="Email" placeholder="Email">
                     <label>Message:</label>
                         <input type="text" id="Message" name="Message" placeholder="Please write your message here">
                         <input type="submit" value="Submit">
@@ -219,8 +83,14 @@ video {
             </div>    
 		</div>
     </div>
+</div>    
 <!--footer nav-->
-
+<footer>
+    <a href=#HOME>Home</a>  &nbsp;•&nbsp; 
+    <a href=#ABOUT>About</a> &nbsp;•&nbsp; 
+    <a href="https://github.com/brijkean">Github</a> &nbsp;•&nbsp; 
+    <a href=#CONTACT>Contact</a>&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: rgb(87, 255, 255)"> © Brianna Keany</span>
+</footer>
 
 
 
